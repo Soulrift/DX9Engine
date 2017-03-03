@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Shader">
+      <UniqueIdentifier>{bba3a253-2d67-478a-985d-525fe4788f97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FSM">
+      <UniqueIdentifier>{d75b252d-1175-4123-877e-7340b29aa81e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{f30ee326-c35d-4f16-97f5-83f512c3a1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DX9 Core">
+      <UniqueIdentifier>{3ff1c89d-123d-4cb4-90fd-b2bb9450189d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{4b1e58c8-3dc5-4f18-a33d-77b1594fbc3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{39940b7b-1142-4316-ae12-67642938333c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DX9 Core">
+      <UniqueIdentifier>{9c384531-bd33-4822-bcfd-233beee74a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FSM">
+      <UniqueIdentifier>{1f0fe4cb-850d-4f17-90fd-e93095a82dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{27a20d42-0879-4c07-b68a-15e53bcf287c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking">
+      <UniqueIdentifier>{fdfbd4d3-216a-4184-b385-96e3e517795c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseState.h">
+      <Filter>Header Files\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>Header Files\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorDefines.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="DX9Camera.h">
+      <Filter>Header Files\DX9 Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DX9Font.h">
+      <Filter>Header Files\DX9 Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DX9Input.h">
+      <Filter>Header Files\DX9 Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DX9Sprite.h">
+      <Filter>Header Files\DX9 Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DX9Texture.h">
+      <Filter>Header Files\DX9 Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files\DX9 Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Orb.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoState1.h">
+      <Filter>Header Files\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Quad.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DX9Material.h">
+      <Filter>Header Files\DX9 Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMapDemo.h">
+      <Filter>Header Files\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="FogDemo.h">
+      <Filter>Header Files\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicShadows.h">
+      <Filter>Header Files\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="RaceDemo.h">
+      <Filter>Header Files\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="GlassDemo.h">
+      <Filter>Header Files\FSM</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9Input.cpp">
+      <Filter>Source Files\DX9 Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9Camera.cpp">
+      <Filter>Source Files\DX9 Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9Font.cpp">
+      <Filter>Source Files\DX9 Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files\DX9 Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoState1.cpp">
+      <Filter>Source Files\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Quad.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMapDemo.cpp">
+      <Filter>Source Files\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="FogDemo.cpp">
+      <Filter>Source Files\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicShadows.cpp">
+      <Filter>Source Files\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="RaceDemo.cpp">
+      <Filter>Source Files\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassDemo.cpp">
+      <Filter>Source Files\FSM</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sky.fx">
+      <Filter>Header Files\Shader</Filter>
+    </None>
+    <None Include="LightTex.fx">
+      <Filter>Header Files\Shader</Filter>
+    </None>
+    <None Include="simple.fx">
+      <Filter>Header Files\Shader</Filter>
+    </None>
+    <None Include="post.fx">
+      <Filter>Header Files\Shader</Filter>
+    </None>
+    <None Include="LightShadow.fx">
+      <Filter>Header Files\Shader</Filter>
+    </None>
+    <None Include="DynShadow.fx">
+      <Filter>Header Files\Shader</Filter>
+    </None>
+    <None Include="GlassShader.fx">
+      <Filter>Header Files\Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
